@@ -1,23 +1,28 @@
 @import "tailwindcss";
 
 @font-face {
-  font-family: 'Bebas Nue', sans-serif;
-  src: url("/assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+  font-family: 'Bebas Neue';
+  src: url("../assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
 }
 
 @font-face {
-  font-family: 'Cormorant', sans-serif;
-  src: url("/assets/fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
+  font-family: 'Cormorant';
+  src: url("../assets/fonts/Cormorant/Cormorant-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: 'Open Sans', sans-serif;
-  src: url("/assets/fonts/Open_Sans/OpenSans-VariableFont_wght.ttf");
+  font-family: 'Open Sans';
+  src: url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wght.ttf");
 }
 
 @font-face {
-  font-family: 'Oswald', sans-serif;
-  src: url("/assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+  font-family: 'Oswald';
+  src: url("../assets/fonts/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Gidole";
+  src: url("../assets/fonts/Gidole/Gidole-Regular.ttf");
 }
 
 :root {
@@ -29,4 +34,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.sign-in-container {
+  font-family: "Gidole", sans-serif;
 }
