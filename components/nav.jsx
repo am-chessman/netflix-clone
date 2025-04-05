@@ -3,7 +3,7 @@ import React from 'react'
 const NavigationBar = () => {
     return (
         <div>
-            <img src="movienest.png" className='w-50' alt="" />
+            <img src="netflux.png" className='w-40' alt="" />
         </div>
     )
 }
