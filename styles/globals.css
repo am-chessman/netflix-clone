@@ -49,12 +49,3 @@ body {
 .forgotten-pass {
   text-decoration: underline;
 }
-
-.cover-bg-wrapper {
-  width: 100%;
-  height: 600px;
-  background-image: url("/background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

@@ -6,10 +6,10 @@ import Footer from '@/components/footer'
 const Page = () => {
     return (
         <>
-            <div className='w-full flex items-end ml-38 pt-5 relative z-10'>
+            <div className='w-full flex items-start ml-38 pt-5 relative z-10'>
                 <NavigationBar />
             </div>
-            <div className="cover-bg-wrapper scale-150 before:block before:bg-black before:h-full before:opacity-40 absolute">
+            <div className="cover-bg-wrapper bg-[url('/background.jpg')] bg-center bg-no-repeat bg-cover h-[600px] w-full scale-150 before:block before:bg-black before:h-full before:opacity-40 absolute hidden sm:block">
             </div>
                 <div className="w-[95%] m-auto relative">
                     <div className='w-full flex flex-col items-center'>
