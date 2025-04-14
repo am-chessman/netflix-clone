@@ -4,7 +4,7 @@ import "../styles/globals.css"
 const Footer = () => {
     return (
         <div className='w-full bg-[rgb(22,22,22)]'>
-            <div className=' ml-38 pt-20 pb-20'>
+            <div className='m-auto sm:ml-38 pt-20 pb-20'>
                 <div>
                     <div className='text-[#b6b6b6]'>Frågor? Ring 0201 604 327 (avgiftsfritt)</div>
                     <div className='grid grid-cols-4 justify-between gap-y-4 pt-5'>
