@@ -70,7 +70,7 @@ const ScrollWrapper = () => {
                     items-center
                     absolute
                     left-10
-                    h-40
+                    h-60
                     min-w-[78px]
                     bg-black
                     opacity-50
@@ -90,7 +90,7 @@ const ScrollWrapper = () => {
                     items-center
                     absolute
                     right-10
-                    h-40
+                    h-60
                     min-w-[78px]
                     bg-black
                     opacity-50
@@ -102,7 +102,7 @@ const ScrollWrapper = () => {
                 </div>
                 {
                     imageItems.map((item, index) => (
-                        <div className='h-full w-[350px] bg-center bg-contain bg-no-repeat' style={{backgroundImage: `url(${item})`}} key={index}></div>
+                        <div className='h-full w-[350px] bg-center bg-cover bg-no-repeat border-amber-500 border rounded-md' style={{backgroundImage: `url(${item})`}} key={index}></div>
                     ))
                 }
             </div>
