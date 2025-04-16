@@ -3,11 +3,31 @@ import ScrollWrapper from '@/components/scrollWrapper'
 
 const BrowseUI = () => {
     return (
-        <div className='ml-10 mr-10'>
-            <div className='mb-2 mt-2 font-bold text-xl'>
-                <p>Trending Now</p>
-            </div>
-            <ScrollWrapper/>
+        // <div className='ml-10 mr-10'>
+        //     <div className='mb-6'>
+        //         <div className='mb-2 mt-2 font-bold text-2xl'>
+        //             <p>Trending Now</p>
+        //         </div>
+        //         <ScrollWrapper/>
+        //     </div>
+        //     <div className='mb-6'>
+        //         <div className='mb-2 mt-2 font-bold text-2xl'>
+        //             <p>Action</p>
+        //         </div>
+        //         <ScrollWrapper/>
+        //     </div>
+        //     <div className='mb-6'>
+        //         <div className='mb-2 mt-2 font-bold text-2xl'>
+        //             <p>Tv-series</p>
+        //         </div>
+        //         <ScrollWrapper/>
+        //     </div>
+        //     <div className='mb-6'>
+        //         <div className='mb-2 mt-2 font-bold text-2xl'>
+        //             <p>Thrillers</p>
+        //         </div>
+        //         <ScrollWrapper/>
+        //     </div>
             {/* <div>
                 <div>
                     <p>Continue Watching</p>
@@ -39,8 +59,8 @@ const BrowseUI = () => {
                 <div>
                     
                 </div>
-            </div> */}
-            {/* <div>
+            </div>
+            <div>
                 <div>
                     <p></p>
                 </div>
@@ -55,8 +75,8 @@ const BrowseUI = () => {
                 <div>
                     
                 </div>
-            </div> */}
-        </div>
+            </div>
+        </div> */}
     )
 }
 

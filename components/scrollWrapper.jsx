@@ -54,7 +54,7 @@ const ScrollWrapper = () => {
                 ref={scrollRef}
                 onScroll={handleOnScroll}
                 className="
-                h-60 w-[100%]
+                h-50 w-[100%]
                 grid
                 grid-flow-col
                 gap-2
@@ -70,8 +70,8 @@ const ScrollWrapper = () => {
                     items-center
                     absolute
                     left-10
-                    h-60
-                    min-w-[78px]
+                    h-50
+                    min-w-[70px]
                     bg-black
                     opacity-50
                     hover:opacity-80
@@ -90,8 +90,8 @@ const ScrollWrapper = () => {
                     items-center
                     absolute
                     right-10
-                    h-60
-                    min-w-[78px]
+                    h-50
+                    min-w-[70px]
                     bg-black
                     opacity-50
                     hover:opacity-80
@@ -102,7 +102,7 @@ const ScrollWrapper = () => {
                 </div>
                 {
                     imageItems.map((item, index) => (
-                        <div className='h-full w-[350px] bg-center bg-cover bg-no-repeat border-amber-500 border rounded-md' style={{backgroundImage: `url(${item})`}} key={index}></div>
+                        <div className='h-full w-[350px] bg-center bg-cover bg-no-repeat border-red-500 border rounded-md' style={{backgroundImage: `url(${item})`}} key={index}></div>
                     ))
                 }
             </div>
