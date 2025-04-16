@@ -37,3 +37,21 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+.movie-overlay::before {
+  content: '';
+  height: 600px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url('/images/a-quiet-place-day-5120x2880-17363_1080p.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -2;
+}
+
+.movie-name {
+  font-family: 'Bebas Neue';
+}

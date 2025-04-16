@@ -100,11 +100,11 @@ const ScrollWrapper = () => {
                 >
                     <i className="bi bi-chevron-right"></i>
                 </div>
-                {
-                    imageItems.map((item, index) => (
-                        <div className='h-full w-[350px] bg-center bg-cover bg-no-repeat border-red-500 border rounded-md' style={{backgroundImage: `url(${item})`}} key={index}></div>
-                    ))
-                }
+                {/*{*/}
+                {/*    imageItems.map((item, index) => (*/}
+                {/*        <div className='h-full w-[350px] bg-center bg-cover bg-no-repeat border-red-500 border rounded-md' style={{backgroundImage: `url(${item})`}} key={index}></div>*/}
+                {/*    ))*/}
+                {/*}*/}
             </div>
         </div>
     )
